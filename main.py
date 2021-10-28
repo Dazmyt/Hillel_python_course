@@ -33,5 +33,4 @@ print("привет мир")
 # \n'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr',\
 # \n'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod',\
 # \n'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip'")
-# print("Команды готовы с переносом для красоты")
 print(dir (__builtins__))
