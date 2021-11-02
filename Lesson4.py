@@ -10,7 +10,6 @@ c = str.replace(input_string, "замена в строке")
 # Длина строки
 print(len(c))
 # Итого да/нет
-string = c
 if "строка" in c:
     print("ДА")
 else:
