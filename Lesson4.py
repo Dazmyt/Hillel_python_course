@@ -1,16 +1,15 @@
 # Задание-1
 a = "Это строка в которую {} новую строку"
 input_string = input('Введите что-то')
-b = a.format(input_string)
-print(b)
+a = a.format(input_string)
+print(a)
 # задание-2
-str = b
-print(str.replace(input_string, "замена в строке"))
-c = str.replace(input_string, "замена в строке")
+print(a.replace(input_string, "замена в строке"))
+a = a.replace(input_string, "замена в строке")
 # Длина строки
-print(len(c))
+print(len(a))
 # Итого да/нет
-if "строка" in c:
+if "строка" in a:
     print("ДА")
 else:
     print("Нет")
