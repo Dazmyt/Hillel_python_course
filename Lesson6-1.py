@@ -1,5 +1,4 @@
 import random
-
 my_list1 = [random.randint(1, 10) for _ in range(5)]
 my_list2 = [random.randint(1, 10) for _ in range(5)]
 my_list3 = []
